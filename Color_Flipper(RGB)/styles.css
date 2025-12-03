@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+}
+
+.Container {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.ContainerOutput {
+    width: 500px;
+    text-align: center;
+}
+
+.ContainerOutput > #Output {
+    padding: 15px;
+    background: #161B33;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+#Decoration {
+    color: #39A0ED;
+}
+
+.DecorationMain {
+    color: #FFFFFF;
+}
+
+.ContainerBtn > #RandomBtn {
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFF;
+    box-shadow: 0px 0px 10px #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.ContainerBtn > #RandomBtn:hover {
+    box-shadow: 0px 0px 20px #FFFFFF;
+}
