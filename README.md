@@ -6,6 +6,8 @@ Since 8th grade, I’ve been learning the basic and essential elements of JavaSc
 
 ## 🛠️ TECHNOLOGIES
 - JavaScript
+- CSS
+- HTML
 
 ## ✨ FEATURES
 - Press the button and instantly generate a random color on the page and output.
